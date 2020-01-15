@@ -54,7 +54,7 @@ module.exports = {
               inject: true,
               filename: 'index.html',
               chunks: ['app', 'common'],
-              template: './public/index.html' ,   // 模板文件位置
+              template: './index.html' ,   // 模板文件位置
           }),
           // hot 检测文件改动替换plugin
           new webpack.NamedModulesPlugin(),
