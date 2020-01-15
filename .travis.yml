@@ -10,6 +10,6 @@ before_install:
 script:
   - npm run build
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
-  - docker build -t brightmask/frontend-docker:latest .
-  - docker push brightmask/frontend-docker:latest
+  - docker build -t xly1994/frontend-docker:latest .
+  - docker push xly1994/frontend-docker:latest
 
